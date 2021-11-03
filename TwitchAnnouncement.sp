@@ -1,7 +1,6 @@
 #include <sourcemod>
 #include <csgo_colors>
 #include <ripext>
-#include <steamworks>
 
 public Plugin myinfo = 
 {
