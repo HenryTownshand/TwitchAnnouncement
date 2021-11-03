@@ -3,8 +3,8 @@
 
 public Plugin myinfo = 
 {
-	name = "Twitch Announcement", 
-	description = "Twitch Announcement", 
+	name = "[TK] Twitch Announcement", 
+	description = "Оповещание о запущеном стриме", 
 	author = "HenryTownshand", 
 	version = "1.0.0", 
 	url = "https://tkofficial.ru"
