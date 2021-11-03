@@ -1,4 +1,3 @@
-#include <sourcemod>
 #include <csgo_colors>
 #include <ripext>
 
