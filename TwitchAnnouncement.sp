@@ -10,6 +10,8 @@ public Plugin myinfo =
 	url = "https://tkofficial.ru"
 };
 
+char g_iUrl[256] = "<Ссылка на index.php>";
+
 public void OnPluginStart()
 {
 	CreateTimer(180.0, TwitchAnnouncement, _, TIMER_REPEAT);
@@ -18,8 +20,7 @@ public void OnPluginStart()
 public Action TwitchAnnouncement(Handle timer)
 {
 	char iType[128];
-	char iUrl[256] = "<Ссылка на index.php>";
-	HTTPClient request = new HTTPClient(iUrl);
+	HTTPClient request = new HTTPClient(g_iUrl);
 	request.Get(iType, OnOnlReceived);
 	return Plugin_Continue;
 }
