@@ -18,7 +18,7 @@ public void OnPluginStart()
 public Action TwitchAnnouncement(Handle timer)
 {
 	char iType[128];
-	char iUrl[256] = "https://tkofficial.ru/curl/index.php";
+	char iUrl[256] = "<Ссылка на index.php>";
 	HTTPClient request = new HTTPClient(iUrl);
 	request.Get(iType, OnOnlReceived);
 	return Plugin_Continue;
