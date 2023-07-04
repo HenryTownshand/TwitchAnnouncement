@@ -1,7 +1,7 @@
 <?php 		
-$account = "<YOUR ACCOUNT>"; //то что идёт после https://www.twitch.tv/
-$token = "<YOUR TOKEN>"; // Генерируем токен https://twitchtokengenerator.com
-$clientid = "<YOUR CLIENTID>"; // Берём CLIENT ID https://twitchtokengenerator.com
+$account = $_GET['id']; // Не трогать
+$token = ""; // Генерируем токен https://twitchtokengenerator.com
+$clientid = ""; // Берём CLIENT ID https://twitchtokengenerator.com
 
 function infoTwitchUser($name, $token, $clientid)
 {	
